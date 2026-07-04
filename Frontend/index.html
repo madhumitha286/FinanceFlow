@@ -23,18 +23,18 @@
       <div class="summary">
 
         <div class="card">
-          <h3>Total Balance</h3>
-          <p>$2,700.00</p>
+           <h3>Total Balance</h3>
+           <p id="balance">$0</p>
         </div>
 
         <div class="card">
           <h3>Total Income</h3>
-          <p>$3,000.00</p>
+          <p id="total-income">$0</p>
         </div>
 
         <div class="card">
           <h3>Total Expenses</h3>
-          <p>$300.00</p>
+          <p id="total-expense">$0</p>
         </div>
 
       </div>
@@ -50,38 +50,14 @@
               <th>Amount</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>June 1, 2026</td>
-              <td>salary</td>
-              <td>Income</td>
-              <td>+$3,000</td>
-            </tr>
-            <tr>
-              <td>June 2, 2026</td>
-              <td>Groceries</td>
-              <td>Food</td>
-              <td>-$150</td>
-            </tr>
-            <tr>
-              <td>June 3, 2026</td>
-              <td>Netflix</td>
-              <td>Entertainment</td>
-              <td>-$20</td>
-            </tr>
-            <tr>
-              <td>June 4, 2026</td>
-              <td>Electricity Bill</td>
-              <td>Utilities</td>
-              <td>-$130</td>
-            </tr>
+          <tbody id="transaction-body">
           </tbody>
         </table>
-
   </section>
     </main>
     <footer>
       <p>FinanceFlow - Track your money</p>
     </footer>
-  </body>
+        <script src="app.js"></script>
+ </body>
 </html>
